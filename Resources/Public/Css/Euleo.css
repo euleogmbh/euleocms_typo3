@@ -1,0 +1,39 @@
+.tx-euleo-logo {
+	padding: 10px;
+}
+.typo3-dblist {
+	margin-bottom: 20px;
+}
+
+.tx-howtolist {
+	margin: 10px 0;
+	margin-left: 20px;
+	list-style: disc;
+	vertical-align: middle;
+}
+.tx-howtolist img {
+	vertical-align: middle;
+}
+.tx-howtolist ul {
+    margin-left: 20px;
+    list-style: circle;
+    vertical-align: middle;
+}
+
+p {
+	margin: 1em 0;
+}
+
+h2 {
+	margin-top: 1em;
+}
+
+p a,
+td a,
+li a {
+	text-decoration: underline;
+}
+
+div#backlink {
+	margin-top: 20px;
+}

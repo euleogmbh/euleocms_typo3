@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the euleo extension</description>
+	</meta>
+	<data type="array">
+		<!-- <languageKey index="en" type="array">
+		    <label index="euleo.description">This extension allows you to let your website be translated by professional translators!</label>
+		    <label index="euleo.howto">Click here for a how-to!</label>
+		    <label index="euleo.howto.step1">Configure Euleo-Extension</label>
+		    <label index="euleo.howto.install.connect">Connect your installation with Euleo.</label>
+		    <label index="euleo.howto.install.step2">Install L10N-Manager</label>
+		    <label index="euleo.howto.install.step3">Patch L10N-Manager</label>
+		    <label index="euleo.howto.install.step4">Configure L10N-Manager</label>
+		    <label index="euleo.howto.install.step5">Configure Euleo-Callback</label>
+		    <label index="euleo.howto.step2">Create a L10N-Manager-Export</label>
+		    <label index="euleo.howto.step3">Send Export to Euleo</label>
+		    <label index="euleo.howto.step4">At Euleo-Shoppingcart</label>
+		    <label index="euleo.howto.step5">After the translation is ready.</label>
+            <label index="yes">yes</label>
+            <label index="no">no</label>
+            <label index="backlink">« back</label>
+            <label index="headline">Euleo</label>
+			<label index="filename">Filename</label>
+			<label index="file.creationdate">Creation-Date</label>
+			<label index="file.creationdate.format">Y-m-d H:i</label>
+			<label index="select.export">Transfer L10N-Manager-Export to Euleo:</label>
+			<label index="download.export">Download translated XML to import in L10N-Manager</label>
+			<label index="translation.ready">ready</label>
+		</languageKey>-->
+		<languageKey index="default" type="array">
+		    <label index="euleo.description">Mit dieser Erweiterung können Sie Ihre Website von professionellen Übersetzern in die gewünschte Zielsprache übersetzen lassen!</label>
+		    <label index="euleo.howto">Klicken Sie hier, um zur Anleitung zu gelangen!</label>
+		    <label index="euleo.howto.step1">Euleo-Erweiterung einrichten</label>
+		    <label index="euleo.howto.install.connect">Typo3-Installation mit Euleo verbinden</label>
+		    <label index="euleo.howto.install.step2">L10N-Manager installieren</label>
+		    <label index="euleo.howto.install.step3">L10N-Manager patchen</label>
+		    <label index="euleo.howto.install.step4">L10N-Manager konfigurieren</label>
+		    <label index="euleo.howto.install.step5">Euleo-Callback einrichten</label>
+		    <label index="euleo.howto.step2">L10N-Manager-Export erstellen</label>
+		    <label index="euleo.howto.step3">Export an Euleo übertragen</label>
+		    <label index="euleo.howto.step4">Im Euleo-Warenkorb</label>
+		    <label index="euleo.howto.step5">Nach Fertigstellung der Übersetzung</label>
+            <label index="yes">ja</label>
+            <label index="no">nein</label>
+            <label index="backlink">« zurück</label>
+            <label index="headline">Euleo</label>
+			<label index="filename">Dateiname</label>
+			<label index="file.creationdate">Erstelldatum</label>
+			<label index="file.creationdate.format">d.m.Y H:i</label>
+			<label index="select.export">L10N-Manager-Export an Euleo übertragen:</label>
+			<label index="download.export">Übersetztes XML für Import in L10N-Manager herunterladen</label>
+			<label index="translation.ready">abgeschlossen</label>
+		</languageKey>
+	</data>
+</T3locallang>

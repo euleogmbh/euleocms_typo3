@@ -1,0 +1,37 @@
+<f:layout name="Default" />
+
+<f:section name="content">
+<h2>{f:translate(key: "euleo.howto.step2")}</h2>
+<p>Um einen Export zu erstellen, gehen Sie bitte folgendermaßen vor:</p>
+<ul class="tx-howtolist">
+    <li>Klicken Sie in der linken Spalte auf den Link L10N-Manager.</li>
+    <li>In der Liste der Konfigurationen klicken Sie auf den Titel der gewünschten Konfiguration.</li>
+    <li>Wählen Sie die gewünschte Zielsprache im ersten Drop-Down-Feld.</li>
+    <li>Im zweiten Drop-Down-Feld wählen Sie &quot;XML-Export/Import&quot;.</li>
+    <li>Aktivieren Sie die Auswahlbox &quot;Überspringe XML-Überprüfung&quot;.</li>
+    <li>Um zu erfahren, welche Einstellungsmöglichkeiten der L10N-Manager bietet, sehen Sie bitte in dessen Anleitung.</li>
+    <li>Klicken Sie nun auf &quot;Export&quot;. Sie können die XML-Datei speichern oder auch abbrechen.<br />Der Export wird bereits beim Klick auf dem Server abgelegt.</li>
+</ul>
+
+<h2>{f:translate(key: "euleo.howto.step3")}</h2>
+<p>Um einen Export an Euleo zu übertragen, klicken Sie auf den Dateinamen in der oberen Auflistung.<br />
+Sie werden automatisch zum Euleo-Warenkorb weitergeleitet!</p>
+
+<h2>{f:translate(key: "euleo.howto.step4")}</h2>
+<p>Kontrollieren Sie Ihren Warenkorb und beauftragen Sie die Übersetzung.</p>
+<p><b>ACHTUNG:</b><br/>
+Der L10N-Manager speichert die Zielsprache im Export.<br />
+Sollten Sie in mehrere Sprachen übersetzen wollen,<br />
+muss im Resultat die ID der Sprache in der XML-Datei manuell geändert werden.</p>
+
+<h2>{f:translate(key: "euleo.howto.step5")}</h2>
+<p>Sobald die Übersetzung fertiggestellt ist, erhalten Sie eine Benachrichtigung per E-Mail.</p>
+<p>Die fertige Übersetzung scheint in der unteren Liste auf.<br />
+Durch einen Klick auf den Dateinamen können Sie die XML-Datei herunterladen.</p>
+<p>Diese Datei kann anschließend im L10N-Manager importiert werden.</p>
+
+<div id="backlink">
+    <f:link.action action="index" controller="Euleo">{f:translate(key: "backlink")}</f:link.action>
+</div>
+
+</f:section>

@@ -1,0 +1,15 @@
+<f:be.container addCssFile="{f:uri.resource(path:'Css/Euleo.css')}">
+    <div class="typo3-fullDoc">
+        <div id="typo3-dochead">
+            <div class="tx-euleo-logo">
+                <f:image src="EXT:euleo/Resources/Public/logo.png" alt="{f:translate(key='headline')}" />
+            </div>
+        </div>
+        <div id="typo3-docbody">
+            <div id="typo3-inner-docbody">
+                <f:flashMessages renderMode="div" />
+                <f:render section="content" />
+            </div>
+        </div>
+    </div>
+</f:be.container>
